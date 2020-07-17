@@ -1,16 +1,16 @@
 // feetToMile
 function feetToMile(feet)
 {
-    mile = feet/5280;
+    var mile = feet/5280;
     mile = mile.toFixed(5);
     return mile;
 }
 
 // woodCalculator
 function woodCalculator(chair,table,bed){
-    woodForChair = chair*1;
-    woodForTable = table*3;
-    woodForBed = bed*5;
+   var woodForChair = chair*1;
+   var woodForTable = table*3;
+   var woodForBed = bed*5;
 
    var totalWood = woodForChair + woodForTable + woodForBed;
     return totalWood;
